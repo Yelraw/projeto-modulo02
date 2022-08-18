@@ -1,0 +1,65 @@
+body{
+    background: #d3d3d3;
+}
+
+.navbar{
+    background: #ececec;
+}
+
+#logo{
+    height: 70px;
+}
+
+#pagina{
+    width: 100%;
+    padding: 15px;
+    padding-top: 20px;
+}
+
+.icone_editar{
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+.icone_excluir{
+    text-decoration: none;
+    color: #c50000;
+    text-align: center;
+    font-size: 16px;
+}
+
+.icone_editar:hover, .icone_excluir:hover{
+    text-decoration: none;
+    color: #361500;
+    cursor: pointer;
+}
+
+.pd_botao{
+    padding: .17rem 0.75rem !important;
+}
+
+#img_produto{
+    max-width: 90px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.carregar_imagem{
+    width: 100%;
+    height: auto;
+    border: 2px solid #ffbc93;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn_apaga_foto{
+    border-radius: 50%;
+    border: 2px solid #ffbc93;
+    background: #FF6100;
+    color: #fff;
+    position: absolute;
+    top: -12px;
+    right: 5px;
+}

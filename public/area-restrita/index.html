@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="icon" href="../assets/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="../assets/css/load.css">
+    <title>Admistrativo</title>
+
+    <script defer src="/__/firebase/9.6.5/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/9.6.5/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+</head>
+<body>
+    <div id="load">
+        <div class="loadingio-spinner-rolling-okltqz1v6od">
+            <div class="ldio-7mdkckcjas">
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col col-md-4 col-12 offset-md-4">
+                <div class="card shadow">
+                    <div class="card-title"> Login</div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col col-md-12 col-12">
+                                <div class="form-group">
+                                    <label class="label_login">E-mail de acesso:</label>
+                                    <input type="text" id="email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col col-md-12 col-12">
+                                <div class="form-group">
+                                    <label class="label_login">Senha de acesso:</label>
+                                    <input type="password" id="senha" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col col-md-12 col-12">
+                                <div class="form-group">
+                                    <button class="btn btn_laranja" onclick="validarLogin()">Entrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../assets/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+.btn_link{
+    color: #fff;
+    width: 100%;
+}
+
+.btn_link:hover{
+    color: #FF6100;
+}
+
+.fa-whatsapp{
+    font-weight: bold;
+}
+
+.slogan{
+    color: #fff;
+}
+
+.slogan_banner{
+    font-size: 10vh;
+    text-shadow: 2px 3px 3px rgba(150, 150, 150, 1);
+}
+.slogan_bg1{
+    bottom: 20%;
+}
+
+.slogan_bg2{
+    left: 2% !important;
+    bottom: 18%;
+}
+
+.slogan_bg3{
+    bottom: 18%;
+   /* color: #aa1313ed; */
+  color: rgb(225, 193, 110);
+    font-weight: bold;
+}
+
+.container_titulo{
+    min-height: 45px;
+}
+
+#campo_pesquisa{
+    transition: 0.4s;
+}
+
+#campo_pesquisa::placeholder{
+    color: #fff;
+}
+
+#campo_pesquisa:focus{
+    transform: scale(1.02);
+}
+
+#campo_pesquisa:focus::placeholder{
+    color: rgb(195, 195, 195);
+}
+
+#botao_pesquisar{
+    transition: 0.3s;
+}
+
+#botao_pesquisar:hover{
+    transform: scale(1.02);
+}
+
+.qtd-carrinho{
+    background: #FF6100;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+.etapas{
+    background: #fff;
+    color: #FF6100;
+    height: 60px;
+    width: 60px;
+    border: 2px solid #FF6100;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-etapas{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.etapas.etapa-ativa{
+    background: #FF6100;
+    color: #fff;
+    border: 0px;
+}
+
+.texto-etapa{
+    text-align: center;
+    color: #FF6100;
+    font-weight: bold;
+}
+
+.botao-login{
+    padding-top: 3px !important; 
+    padding-bottom: 3px !important; 
+    text-decoration: none; 
+    color: #fff;
+    cursor: pointer;
+}
+
+.botao-login:hover{
+    color: #FF6100;
+}

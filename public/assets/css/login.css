@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/background-login.jpg');
+    background-size: cover;
+    
+}
+
+.card-title{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: #323232;
+    padding: 15px;
+}
+
+.card{
+    margin-top: calc(50vh - 200px);
+}
+
+.btn_laranja {
+    background: #ff6d12 !important;
+    border: 1px solid #FF6100 !important;
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
+}
+
+.label_login{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        background-size: 1366px;
+    }
+}
