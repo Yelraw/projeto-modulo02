@@ -1,8 +1,9 @@
 const axios = require('axios');
-
-const urlAPI = `https://ws.sandbox.pagseguro.uol.com.br`;
-const emailAPI = 'warley9898@gmail.com'
-const tokenAPI = 'C6226BD23CAF4E7C8327E64A418AC1BA'
+require("dotenv").config()
+const urlAPI = process.env.URL_API;
+const emailAPI = process.env.EMAIL_API;
+const tokenAPI = process.env.TOKEN_API;
+const notificationURL = process.env.NOTIFICATION_URL;
 const parseString = require('xml2js').parseString;
 const parser = require('xml-js');
 const db = require('./firebase')
@@ -50,7 +51,7 @@ class Pagseguro{
             dadosCompra.itemAmount1 = valorTotal.toFixed(2);
             dadosCompra.itemQuantity1 = 1
             dadosCompra.reference = requisicao.body.reference
-            dadosCompra.notificationURL = "https://projeto-academia-warley.web.app/"
+            dadosCompra.notificationURL = notificationURL
             dadosCompra.senderHash = requisicao.body.senderHash
             dadosCompra.senderName = destinatario.nome.toUpperCase()
             var docP = destinatario.cpf
